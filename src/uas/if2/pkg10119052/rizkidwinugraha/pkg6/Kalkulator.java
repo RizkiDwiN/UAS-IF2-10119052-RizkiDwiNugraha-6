@@ -25,10 +25,7 @@ public class Kalkulator {
         kalkulator.value2 = input.nextDouble();
         
         System.out.println("");
-        System.out.println("Hasil Pertambahan : " + kalkulator.fungsiTambah());
-        System.out.println("Hasil Pengurangan : " + kalkulator.fungsiKurang());
         System.out.println("Hasil Perkalian : " + kalkulator.fungsiKali());
-        System.out.println("Hasil Pembagian : " + kalkulator.fungsiBagi());
         System.out.println("Hasil Sisa : " + kalkulator.fungsiSisa());
     }
      

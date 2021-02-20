@@ -13,12 +13,13 @@ package uas.if2.pkg10119052.rizkidwinugraha.pkg6;
  * NO SOAL : 6
  */
 public class UASIF210119052RIZKIDWINUGRAHA6 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+  
+    public double value1,value2;
     
+    public double fungsiKali(){
+        return value1*value2;
+    }
+    public double fungsiSisa(){
+        return value1%value2;
+    }
 }
