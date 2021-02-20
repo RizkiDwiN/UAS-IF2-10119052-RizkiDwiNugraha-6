@@ -18,15 +18,14 @@ public class Kalkulator {
         UASIF210119052RIZKIDWINUGRAHA6 kalkulator = new UASIF210119052RIZKIDWINUGRAHA6();
         
         System.out.println("Kalkulator Ku");
-        System.out.print("Masukkan Value Bilangan Pertama : ");
+        System.out.print("Value 1 : ");
         Scanner input = new Scanner(System.in);
         kalkulator.value1 = input.nextDouble();
-        System.out.print("Masukkan Value Bilangan Kedua : ");
+        System.out.print("Value 2 : ");
         kalkulator.value2 = input.nextDouble();
         
         System.out.println("");
         System.out.println("Hasil Perkalian : " + kalkulator.fungsiKali());
-        System.out.println("Hasil Sisa : " + kalkulator.fungsiSisa());
     }
      
 }

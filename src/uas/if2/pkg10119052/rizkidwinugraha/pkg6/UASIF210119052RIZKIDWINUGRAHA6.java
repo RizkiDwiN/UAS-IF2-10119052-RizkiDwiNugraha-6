@@ -19,7 +19,4 @@ public class UASIF210119052RIZKIDWINUGRAHA6 {
     public double fungsiKali(){
         return value1*value2;
     }
-    public double fungsiSisa(){
-        return value1%value2;
-    }
 }
